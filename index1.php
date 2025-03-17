@@ -28,3 +28,4 @@ $room3 = array ("id" => $my_id[2], "my_type" => $my_type[1], "number" => $my_num
 $allRooms = array ($room1,$room2,$room3);
 print_r($allRooms);
 ?>
+
