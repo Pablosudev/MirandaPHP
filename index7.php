@@ -19,7 +19,7 @@ if ($search) {
     $stmt = $conn->prepare($sql);
     $search_term = "%$search%";
     $stmt->bind_param("ssss", $search_term, $search_term, $search_term, $search_term);
-} else {
+} else {+
     // Si no hay búsqueda, obtenemos todas las habitaciones
     $sql = "SELECT type, number, price, offer FROM rooms";
     $stmt = $conn->prepare($sql);
