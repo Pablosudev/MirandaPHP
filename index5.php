@@ -32,7 +32,7 @@ $conn->close();
             <strong>Type:</strong> <?php echo $habitacion['type']; ?><br>
             <strong>Number:</strong> <?php echo $habitacion['number']; ?><br>
             <strong>Price:</strong> <?php echo $habitacion['price']; ?><br>
-            <strong>Discount:</strong> <?php echo $habitacion['offerPrice']; ?>
+            <strong>Discount:</strong> <?php echo $habitacion['offer']; ?>
         </li>
     <?php endforeach; ?>
 </ol>
